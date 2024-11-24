@@ -1,0 +1,54 @@
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center the menu items */
+    background-color: #9b0000; /* Add a background color to the menu */
+}
+
+nav ul li {
+    margin: 0 15px; /* Add spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(0, 0, 0); /* Set the text color */
+    padding: 10px 15px; /* Add padding around the text */
+    display: block; /* Ensure clickable area is consistent */
+    background-color: #fc9292; /* Background for individual links */
+    border-radius: 5px; /* Round the edges slightly */
+}
+
+nav ul li a:hover {
+    background-color: rgb(146, 168, 233); /* Change color on hover */
+}
+main {
+    text-align: center; /* Centers text and inline elements like images */
+}
+main {
+    line-height: 1.5; 
+}
+main {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adds space between the title and images */
+}
+
+/* Style for the images next to the title */
+.title-image {
+    width: 50px; /* Adjust the size of the images as needed */
+    height: 50px;
+}
+
+/* Optional: Add some styling for the title */
+h1 {
+    font-size: 2em;
+    text-align: center;
+}

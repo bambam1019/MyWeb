@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Sports Cars</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Manage Sports Cars</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="managesportscars.html">CRUD</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Add a Sports Car</h2>
+        <form id="car-form">
+            <input type="text" id="make" placeholder="Car Make (e.g., Ferrari)" required>
+            <input type="text" id="model" placeholder="Car Model (e.g., 488 GTB)" required>
+            <input type="number" id="year" placeholder="Year (e.g., 2024)" required>
+            <input type="number" id="speed" placeholder="Top Speed (mph)" required>
+            <button type="button" id="add-car">Add Car</button>
+        </form>
+        <h3>My Sports Cars</h3>
+        <ul id="car-list"></ul>
+    </main>
+    <footer>
+        <p>© 2024 Amber Anderson</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
